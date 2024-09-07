@@ -9,7 +9,7 @@ import pandas as pd
 
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
-    page_title="Inventory tracker",
+    page_title="Tekejeu Inventory tracker",
     page_icon=":shopping_bags:",  # This is an emoji shortcode. Could be a URL too.
 )
 
@@ -173,7 +173,7 @@ def update_data(conn, df, changes):
 """
 # :shopping_bags: Inventory tracker
 
-**Welcome to Alice's Corner Store's intentory tracker!**
+**Welcome to Tekejeu's Store's intentory tracker!**
 This page reads and writes directly from/to our inventory database.
 """
 
@@ -266,7 +266,7 @@ st.altair_chart(
     use_container_width=True,
 )
 
-st.caption("NOTE: The :diamonds: location shows the reorder point.")
+st.caption("NOTE: Tekejeu The :diamonds: location shows the reorder point.")
 
 ""
 ""
